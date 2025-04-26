@@ -1,60 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Finlândia - O Paraíso Nórdico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AU+SA:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <title>Finlândia - Destinos</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Finlândia - O Paraíso Nórdico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AU+SA:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Finlândia - O Paraíso Nórdico</title>
+    <link rel="stylesheet" href="./style/lugares.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
     <header>
-        <!-- continuar aqui -->
-        <div class="container"> 
-            <h1 class="title">Finlândia</h1>
+      <div>
+        <!-- Navegação Principal -->
+        <nav>
+          <ul class="menu">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./lugares.html">Lugares</a></li>
             
-            <p class="p1">O país onde a natureza e a modernidade se encontram</p>
-        </div>
-        
-        <h1>Explore Beautiful Destinations</h1>
-        <nav aria-label="Navegação principal">
-            <ul class="menu">
-                <li><a href="./home.html">home</a></li>
-                <li><a href="./cultura.html">Cultura</a></li>
-            </ul>
-            <button onclick="window.location.href='index.html'" class="btn-voltar">Voltar para o Início</button>
+          </ul>
         </nav>
+      </div>
     </header>
+
+    <!-- Conteúdo Principal -->
     <main>
-        <section>
-            <h2 class="travels">Locais para Conhecer na Finlândia</h2>
-            <article>
-            <h3 class="travel1">Helsinque</h3>
-            <p>A capital da Finlândia, conhecida por sua arquitetura moderna, catedrais impressionantes e o mercado Kauppatori.</p>
-            </article>
-            <article>
-            <h3 class="travel2">Lapônia</h3>
-            <p>Explore a terra do Papai Noel, com paisagens de neve, auroras boreais e aventuras no Ártico.</p>
-            </article>
-            <article>
-            <h3 class="travel3">Parque Nacional de Nuuksio</h3>
-            <p>Um refúgio natural perto de Helsinque, perfeito para trilhas, piqueniques e observação da vida selvagem.</p>
-            </article>
-        </section>
-    </main>
-     <!-- Rodapé -->
-     <footer class="rodape">
-        <div class="container">
-            <p>Desenvolvido por Daniely Oliveira - © 2025</p>
-            <section class="redes-sociais"> 
-                <a href="https://discordapp.com/users/688916004377460799" target="_blank">Discord</a>
-                <a href="https://br.linkedin.com/in/daniely-m%C3%A9lo-6a1a2b352" target="_blank">LinkedIn</a>
-                <a href="https://github.com/daniolivem" target="_blank">GitHub</a>
-            </section>
+      <!-- Seção Introdução -->
+      <section class="introducao">
+        <div>
+          <h2 id="intro-heading">Pontos Turisticos</h2>
         </div>
+        <div class="containers">
+          <p class="paragrafo">
+            A Finlândia é um país nórdico conhecido por sua beleza natural,
+            cultura rica e qualidade de vida excepcional. Com paisagens
+            deslumbrantes, como lagos cristalinos e florestas densas, a
+            Finlândia oferece uma experiência única para os visitantes. Além
+            disso, a cultura finlandesa é marcada por tradições fascinantes,
+            como a sauna e o design escandinavo. A Finlândia, situada no norte
+            da Europa, é amplamente reconhecida por suas paisagens naturais
+            estonteantes, como lagos cristalinos e florestas densas que se
+            estendem por vastas áreas do país. A cultura finlandesa destaca-se
+            pela tradição da sauna, elemento importante no estilo de vida local,
+            além do renomado design escandinavo que reflete funcionalidade e
+            beleza minimalista. Esse país nórdico também se destaca pela
+            excepcional qualidade de vida, sendo um destino ideal para quem
+            busca tranquilidade, contato com a natureza e experiências culturais
+            autênticas. Desde o fenômeno da Dança folclórica" até o sol da
+            meia-noite, a Finlândia oferece momentos únicos que ficam gravados
+            na memória de seus visitantes.
+          </p>
+        </div>
+      </section>
+      <div class="center"></div>
+      <section>
+        <div class="image">
+          <div class="carrosel">
+            <img
+              class="card"
+              src="./img/aurora-borealis-2163329_1920.jpg"
+              alt="Aurora Boreal"
+            />
+            <img
+              class="card"
+              src="./img/2149849685.jpg"
+              alt="Dança folclórica"
+            />
+
+            <img class="card" src="./img/image.png" alt="Sauna" />
+
+            <img
+              class="card"
+              src="./img/lake-7415097_1280.jpg"
+              alt="Lago, Ridge, Punkaharju"
+            />
+
+            <img class="card" src="./img/lapland-2984828.jpg" alt="Lapland" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+      <div>
+        <p>Desenvolvido por Daniely Oliveira - © 2025</p>
+        <section class="redes-sociais">
+          <a
+            href="https://discordapp.com/users/688916004377460799"
+            target="_blank"
+            >Discord</a
+          >
+          <a
+            href="https://br.linkedin.com/in/daniely-m%C3%A9lo-6a1a2b352"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/daniolivem" target="_blank">GitHub</a>
+        </section>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
