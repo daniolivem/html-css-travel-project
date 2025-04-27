@@ -32,6 +32,7 @@ body {
 
 .p1 {
   font-size: 16px;
+  font-family: "Roboto Mono", monospace;
   text-align: center;
   margin: 25px 0;
   color: #f8f9fa;

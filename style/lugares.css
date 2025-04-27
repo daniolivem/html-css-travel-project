@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: repeating-radial-gradient(
+        circle at 0 0,
+        transparent 0,
+        #ffffff 10px
+      ),
+      repeating-linear-gradient(#e3e4ff55, #e3e4ff);
+          
+  }
+  
+  .menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+    font-family: "Roboto Mono", monospace;
+    text-decoration: ;
+    padding-top: 35px;
+    margin-right: 65px;
+    cursor: pointer;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  #intro-heading {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: center;
+    color: #003871;
+    margin-top: 45px;
+    
+  }
+  
+  .lista {
+    gap: 1em;
+    
+}
+  
+  .rodape {
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.4;
+    color: #003871;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Roboto Mono", monospace;
+    z-index: 10;
+  }
+  

@@ -38,7 +38,7 @@ a:link {
   font-size: 4em;
   text-align: center;
   color: #003871;
-  margin-top: 55px;
+  margin-top: 45px;
   
 }
 
@@ -52,7 +52,7 @@ a:link {
 .paragrafo {
   margin-right: 50%;
   margin-left: 90px;
-  margin-top: 45px;
+  margin-top: 30px;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-size: 15px;
@@ -61,14 +61,22 @@ a:link {
   
 }
 
-
+.indica {
+  float: right;
+  margin-top: -5%;
+  margin-right: 85px;
+  font-size: 10px;
+  color: #003871;
+  opacity: 0.5;
+  z-index: -1;
+}
 
 .image {
   position: relative;
-  margin-top: -28%;
+  margin-top: -30%;
   margin-left: 57%;
-  max-width: 550px;
-  max-height: 340px;
+  max-width: 580px;
+  max-height: 380px;
 }
 
 .carrosel {
@@ -83,10 +91,10 @@ a:link {
 }
 
 .card {
-  min-width: 550px;
-  min-height: 340px;
-  max-width: 550px;
-  max-height: 340px;
+  min-width: 580px;
+  min-height: 380px;
+  max-width: 580px;
+  max-height: 380px;
   scroll-snap-align: center;
   border-radius: 40px;
 }
